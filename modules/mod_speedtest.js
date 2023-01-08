@@ -40,7 +40,7 @@ async function runSpeedtest(serverNumber){
         console.debug("Speedtest execution completed");
     } catch (error) {
         console.error("Speedtest execution failed");
-        console.error("Unexpected output from command: ", err);
+        console.error("Unexpected output from command: ", error);
     }
 }
 
