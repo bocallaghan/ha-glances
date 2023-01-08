@@ -10,7 +10,7 @@ require('console-stamp')(console, {
         debug: 5
     },
     include: ['debug', 'info', 'warn', 'error', 'fatal'],
-    level: 'debug'
+    level: 'info'
 });
 
 

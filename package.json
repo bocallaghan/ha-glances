@@ -1,4 +1,13 @@
 {
+  "name": "ha-glances",
+  "version": "0.1",
+  "description": "An API server for providing data to home assistant glances.",
+  "main": "glances-api-server.js",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com:bocallaghan/ha-glances.git",
+    "type": "git"
+  },
   "dependencies": {
     "console-stamp": "^3.1.0",
     "express": "^4.18.2",
