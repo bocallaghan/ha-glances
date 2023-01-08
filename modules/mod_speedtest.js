@@ -30,7 +30,8 @@ async function runSpeedtest(serverNumber){
     try {
         console.debug("Speedtest execution starting");
         var speedtestResults = await speedTest({
-            "serverId": ("" + serverNumber)
+            "serverId": ("" + serverNumber),
+            acceptLicense: true
         });
         console.debug("Test completed");
         console.debug(speedtestResults);
